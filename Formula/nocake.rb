@@ -1,8 +1,8 @@
 class Nocake < Formula
   desc "Invisible macOS keyboard-lock deterrent (blocks typing on a hotkey)"
   homepage "https://github.com/Zappendusta/nocake"
-  url "https://github.com/Zappendusta/nocake/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "f190d165b25b35376cc039ce0e658cbf552113949a47f7c3f93e1d44bd7e521e"
+  url "https://github.com/Zappendusta/nocake/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "18d66f35128dd59ba6c297e98f56fe46ebb27f83a0b7529af46ac28b4d216a52"
   license "MIT"
   head "https://github.com/Zappendusta/nocake.git", branch: "master"
 
