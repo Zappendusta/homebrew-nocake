@@ -6,7 +6,8 @@ class Nocake < Formula
   license "MIT"
   head "https://github.com/Zappendusta/nocake.git", branch: "master"
 
-  depends_on xcode: :build
+  # Command Line Tools are enough — this is a single `swiftc` compile against
+  # system frameworks, not an Xcode/SwiftPM project. No full Xcode needed.
   depends_on macos: :monterey
 
   def install
